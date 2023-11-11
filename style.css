@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Suez+One&family=Yellowtail&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+}
+
+ul,ol{
+     list-style: none;
+}
+
+a{
+     display: inline-block;
+     text-decoration: none;
+}
+
+img{
+     width: 100%;
+     max-width: 100%;
+     vertical-align: middle;
+}
+
+.clear{
+     clear: both;
+}
+
+.container{
+     width: 1140px;
+     margin: 0 auto;
+}
+
+#main_menu{
+     width: 100%;
+     height: 100px;
+     background-color: #12102f;
+}
+
+.menu_row{
+     display: flex;
+     justify-content: space-between;
+     line-height: 100px;
+}
+
+.menu_col_log img{
+     width: 165px;
+}
+
+.menu_col_text ul{
+     display: flex;
+     gap: 30px;
+     margin-left: 400px;
+}
+
+.menu_col_text ul li a{
+     color: #ffffff;
+     font-size: 15px;
+     font-weight: 700;
+     font-family: 'Roboto', sans-serif; 
+     position: relative;
+     transition: all linear .3s;
+}
+
+.menu_col_text ul li a:hover{
+     color: #ec9123;
+}
+.menu_col_text ul li a::before{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background-color: #ec9123;
+   top: 0%;
+   left: 0px;
+   position: absolute;
+   transition: all linear .3s;
+
+}
+
+.menu_col_text ul li a:hover:before{
+     width: 100%;
+  }
+
+.menu_col_icon a{
+     font-size: 20px;
+     color: #ffffff;
+     transition: all linear .3s;
+}
+
+.menu_col_icon a:hover{
+     color: #ec9123;
+}
+
+#banner{
+     width: 100%;
+     background-image: linear-gradient(rgba(10, 21, 58, 0.75),rgba(31, 13, 61, 0.75)),url(./image/s1.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 120px 0px;
+}
+
+.banner_head h1{
+     width: 900px;
+     font-size: 70px;
+     font-family: 'Suez One', serif;
+     font-weight: 400;
+     color: #ffffff;
+     margin: 0 auto;
+    
+     text-align: center;
+}
+
+.banner_head p{
+     width: 660px;
+     font-size: 20px;
+     font-family: 'Roboto', sans-serif; 
+     font-weight: 400;
+     color: #c8c7e3;
+     margin: 0 auto;
+     text-align: center;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     opacity: 100%;
+}
+
+.banner_button{
+     text-align: center;
+}
+
+.banner_button a{
+     font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 600;
+     background-color: #ec9123;
+     color: #ffffff;
+     text-align: center; 
+     padding: 20px 40px;
+     border-radius: 4px; 
+     border: 1px solid #ec9123;
+     transition: all linear .3s;
+}
+
+.banner_button a:hover{
+  color: #ec9123;
+  background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'IBM Plex Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
